@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>743</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Registro">
+       <attribute name="title">
+        <string>Registrar</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>-660</y>
+             <width>682</width>
+             <height>1218</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QFrame" name="frame">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>1200</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QLabel" name="label_7">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>110</y>
+                 <width>771</width>
+                 <height>91</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;REP&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ff0000;&quot;&gt;ORTE SINTO&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#537bff;&quot;&gt;MATOLOGIC&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ff0000;&quot;&gt;O DE ESTUDA&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;INTES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_22">
+               <property name="geometry">
+                <rect>
+                 <x>80</x>
+                 <y>340</y>
+                 <width>111</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Nombre Completo:&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_9">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>220</y>
+                 <width>111</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Nombre Completo:&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Cor_Acu">
+               <property name="geometry">
+                <rect>
+                 <x>210</x>
+                 <y>250</y>
+                 <width>241</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_11">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>500</y>
+                 <width>441</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Ha Tenido contacto  con personas que  tengan  COVID en los ultimos 15 dias ?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Doc_Num">
+               <property name="geometry">
+                <rect>
+                 <x>390</x>
+                 <y>390</y>
+                 <width>91</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_2">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>390</y>
+                 <width>101</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;N° de Documento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Nom_Est">
+               <property name="geometry">
+                <rect>
+                 <x>200</x>
+                 <y>340</y>
+                 <width>241</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="Tipo_Doc">
+               <property name="geometry">
+                <rect>
+                 <x>190</x>
+                 <y>390</y>
+                 <width>51</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>R.C</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>T.I</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>C.C</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Otro</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_21">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>300</y>
+                 <width>131</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;DATOS E&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;STUDIANTE:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_24">
+               <property name="geometry">
+                <rect>
+                 <x>190</x>
+                 <y>460</y>
+                 <width>191</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;SINTOMA&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#537bff;&quot;&gt;TOLOGÍA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_20">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>250</y>
+                 <width>111</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Correo Electronico:&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_10">
+               <property name="geometry">
+                <rect>
+                 <x>80</x>
+                 <y>380</y>
+                 <width>101</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tipo de Docmento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Nom_Acu">
+               <property name="geometry">
+                <rect>
+                 <x>210</x>
+                 <y>220</y>
+                 <width>241</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_15">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>900</y>
+                 <width>101</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Temperatura:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_18">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>950</y>
+                 <width>291</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;¿Convive con personas trabajadores de la salud?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="B_Guardar">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>1150</y>
+                 <width>75</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>GUARDAR</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="Conv_May">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>980</y>
+                 <width>31</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Si</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>No</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_16">
+               <property name="geometry">
+                <rect>
+                 <x>190</x>
+                 <y>900</y>
+                 <width>101</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>°C</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="Conv_salud">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>950</y>
+                 <width>31</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Si</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>No</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLineEdit" name="Diagnostico">
+               <property name="geometry">
+                <rect>
+                 <x>370</x>
+                 <y>900</y>
+                 <width>113</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_19">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>980</y>
+                 <width>281</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;¿Convive con personas mayores de 60 años?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#537bff;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Temperatura">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>900</y>
+                 <width>31</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_14">
+               <property name="geometry">
+                <rect>
+                 <x>240</x>
+                 <y>740</y>
+                 <width>111</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;ANTECE&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;DENTES:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_17">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>900</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Diagnostico:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_25">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>860</y>
+                 <width>111</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;TEMPER&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;ATURA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_26">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>930</y>
+                 <width>111</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;CONVIV&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;ENCIA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_8">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>200</y>
+                 <width>131</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;DATOS &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;ACUDIENTE:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_12">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>590</y>
+                 <width>81</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#537bff;&quot;&gt;SINTO&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#ff0000;&quot;&gt;MAS:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_23">
+               <property name="geometry">
+                <rect>
+                 <x>-10</x>
+                 <y>-10</y>
+                 <width>81</width>
+                 <height>1211</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(83, 123, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_13">
+               <property name="geometry">
+                <rect>
+                 <x>530</x>
+                 <y>0</y>
+                 <width>151</width>
+                 <height>1241</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(83, 123, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_3">
+               <property name="geometry">
+                <rect>
+                 <x>-10</x>
+                 <y>1110</y>
+                 <width>641</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_70">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>591</width>
+                 <height>141</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(83, 123, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>-10</y>
+                 <width>151</width>
+                 <height>151</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/imagenes/cepilab web-08.png);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_71">
+               <property name="geometry">
+                <rect>
+                 <x>340</x>
+                 <y>0</y>
+                 <width>291</width>
+                 <height>151</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/imagenes/imagen3.png);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_72">
+               <property name="geometry">
+                <rect>
+                 <x>480</x>
+                 <y>1110</y>
+                 <width>191</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">image: url(:/imagenes/imagen1.png);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="Contacto_Covid">
+               <property name="geometry">
+                <rect>
+                 <x>510</x>
+                 <y>510</y>
+                 <width>31</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Si</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>No</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QGroupBox" name="groupBox">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>610</y>
+                 <width>471</width>
+                 <height>131</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QCheckBox" name="checkBox">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>141</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>MS Shell Dlg 2</family>
+                  <pointsize>8</pointsize>
+                  <weight>9</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Tempera mayot a 37°c</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_2">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>40</y>
+                  <width>121</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Dolor de garganta</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_3">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>60</y>
+                  <width>101</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Malestar General</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_4">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>80</y>
+                  <width>141</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Escalofrios</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_5">
+                <property name="geometry">
+                 <rect>
+                  <x>160</x>
+                  <y>20</y>
+                  <width>121</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Dolor muscular</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_8">
+                <property name="geometry">
+                 <rect>
+                  <x>160</x>
+                  <y>80</y>
+                  <width>121</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Secrecion  Nasal</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_6">
+                <property name="geometry">
+                 <rect>
+                  <x>160</x>
+                  <y>40</y>
+                  <width>131</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string> Tos seca constante</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_7">
+                <property name="geometry">
+                 <rect>
+                  <x>160</x>
+                  <y>60</y>
+                  <width>141</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="whatsThis">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;dff&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="text">
+                 <string>Dificultades para Respirar</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_11">
+                <property name="geometry">
+                 <rect>
+                  <x>320</x>
+                  <y>60</y>
+                  <width>151</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Fiebre</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_10">
+                <property name="geometry">
+                 <rect>
+                  <x>320</x>
+                  <y>40</y>
+                  <width>151</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Diarrea</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_9">
+                <property name="geometry">
+                 <rect>
+                  <x>320</x>
+                  <y>20</y>
+                  <width>151</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Perdida de olfato o gusto</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QGroupBox" name="groupBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>760</y>
+                 <width>401</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <widget class="QCheckBox" name="checkBox_16">
+                <property name="geometry">
+                 <rect>
+                  <x>270</x>
+                  <y>20</y>
+                  <width>70</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Asma</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_15">
+                <property name="geometry">
+                 <rect>
+                  <x>110</x>
+                  <y>40</y>
+                  <width>131</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Enfermedad pulmonar</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_13">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>40</y>
+                  <width>70</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Hipertension</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_12">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>20</y>
+                  <width>70</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Diabetes</string>
+                </property>
+               </widget>
+               <widget class="QCheckBox" name="checkBox_14">
+                <property name="geometry">
+                 <rect>
+                  <x>110</x>
+                  <y>20</y>
+                  <width>141</width>
+                  <height>17</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Enfermedad del Corazon</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QLabel" name="label_27">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>1010</y>
+                 <width>281</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;¿Sus abuelos viven con ud?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#537bff;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton">
+               <property name="geometry">
+                <rect>
+                 <x>310</x>
+                 <y>1010</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>si</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_2">
+               <property name="geometry">
+                <rect>
+                 <x>370</x>
+                 <y>1010</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>No</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_28">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>1030</y>
+                 <width>281</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;¿Sus abuela ha sido vacuanda?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#537bff;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_54">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>1050</y>
+                 <width>281</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;¿Sus abuelo ha sido vacuando?&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#537bff;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>310</x>
+                 <y>1030</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>si</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>370</x>
+                 <y>1030</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>No</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_7">
+               <property name="geometry">
+                <rect>
+                 <x>310</x>
+                 <y>1050</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>si</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>370</x>
+                 <y>1050</y>
+                 <width>82</width>
+                 <height>17</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>No</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_55">
+               <property name="geometry">
+                <rect>
+                 <x>120</x>
+                 <y>1080</y>
+                 <width>47</width>
+                 <height>13</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>TextLabel</string>
+               </property>
+              </widget>
+              <zorder>label_23</zorder>
+              <zorder>label_3</zorder>
+              <zorder>label_13</zorder>
+              <zorder>label_7</zorder>
+              <zorder>label_22</zorder>
+              <zorder>label_9</zorder>
+              <zorder>Cor_Acu</zorder>
+              <zorder>label_11</zorder>
+              <zorder>Doc_Num</zorder>
+              <zorder>label_2</zorder>
+              <zorder>Nom_Est</zorder>
+              <zorder>Tipo_Doc</zorder>
+              <zorder>label_21</zorder>
+              <zorder>label_24</zorder>
+              <zorder>label_20</zorder>
+              <zorder>label_10</zorder>
+              <zorder>Nom_Acu</zorder>
+              <zorder>label_15</zorder>
+              <zorder>label_18</zorder>
+              <zorder>B_Guardar</zorder>
+              <zorder>Conv_May</zorder>
+              <zorder>label_16</zorder>
+              <zorder>Conv_salud</zorder>
+              <zorder>Diagnostico</zorder>
+              <zorder>label_19</zorder>
+              <zorder>Temperatura</zorder>
+              <zorder>label_14</zorder>
+              <zorder>label_17</zorder>
+              <zorder>label_25</zorder>
+              <zorder>label_26</zorder>
+              <zorder>label_8</zorder>
+              <zorder>label_12</zorder>
+              <zorder>label_70</zorder>
+              <zorder>label</zorder>
+              <zorder>label_71</zorder>
+              <zorder>label_72</zorder>
+              <zorder>Contacto_Covid</zorder>
+              <zorder>groupBox</zorder>
+              <zorder>groupBox_2</zorder>
+              <zorder>label_27</zorder>
+              <zorder>radioButton</zorder>
+              <zorder>radioButton_2</zorder>
+              <zorder>label_28</zorder>
+              <zorder>label_54</zorder>
+              <zorder>radioButton_5</zorder>
+              <zorder>radioButton_6</zorder>
+              <zorder>radioButton_7</zorder>
+              <zorder>radioButton_8</zorder>
+              <zorder>label_55</zorder>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Consulta">
+       <attribute name="title">
+        <string>Consulta1</string>
+       </attribute>
+       <widget class="QLabel" name="label_76">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>711</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_77">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>541</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_48">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>171</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_49">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>20</y>
+          <width>771</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ff0000;&quot;&gt;CONSU&lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;LTAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Consul_1">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>190</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONSULTA 1</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="Tabla_consulta">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>220</y>
+          <width>411</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>120</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Id Estudiante</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Nombre Estudiante</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Documento</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Acudiente</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Correo Electronico</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Sintomas</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_114">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>120</y>
+          <width>531</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xvv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#537bff;&quot;&gt;1. &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Dada el nombre del estudiante, reportar sus síntomas&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="codigoB">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>190</y>
+          <width>211</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_119">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>190</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Estudiante:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="listWidget">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>220</y>
+          <width>256</width>
+          <height>271</height>
+         </rect>
+        </property>
+       </widget>
+       <zorder>label_48</zorder>
+       <zorder>label_76</zorder>
+       <zorder>label_47</zorder>
+       <zorder>label_77</zorder>
+       <zorder>label_49</zorder>
+       <zorder>Consul_1</zorder>
+       <zorder>Tabla_consulta</zorder>
+       <zorder>label_114</zorder>
+       <zorder>codigoB</zorder>
+       <zorder>label_119</zorder>
+       <zorder>listWidget</zorder>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Consulta 2</string>
+       </attribute>
+       <widget class="QTableWidget" name="Tabla_consulta_2">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>170</y>
+          <width>531</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>264</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Nombre Estudiante</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Acudiente</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_94">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_95">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>20</y>
+          <width>771</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ff0000;&quot;&gt;CONSU&lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;LTAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_96">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>171</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_97">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_98">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>541</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Consul_16">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>470</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONSULTA 2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_115">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>110</y>
+          <width>531</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xvv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#537bff;&quot;&gt;2. &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Listar los nombres de los acudientes con sus representados&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <zorder>label_98</zorder>
+       <zorder>label_96</zorder>
+       <zorder>label_97</zorder>
+       <zorder>label_94</zorder>
+       <zorder>Tabla_consulta_2</zorder>
+       <zorder>label_95</zorder>
+       <zorder>Consul_16</zorder>
+       <zorder>label_115</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Consulta 3</string>
+       </attribute>
+       <widget class="QTableWidget" name="Tabla_consulta_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>200</y>
+          <width>651</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>209</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Nombre Estudiante</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Antecedentes</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Convive Personas Mayores</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_99">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_100">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>20</y>
+          <width>771</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ff0000;&quot;&gt;CONSU&lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;LTAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_101">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>171</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_102">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>711</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_103">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>541</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_116">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>100</y>
+          <width>531</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xvv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#537bff;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Listar los niños que tienen antecedentes previos&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;y que viven con personas mayores &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Consul_17">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>490</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONSULTA 3</string>
+        </property>
+       </widget>
+       <zorder>label_101</zorder>
+       <zorder>label_102</zorder>
+       <zorder>label_100</zorder>
+       <zorder>label_99</zorder>
+       <zorder>label_103</zorder>
+       <zorder>Tabla_consulta_3</zorder>
+       <zorder>label_116</zorder>
+       <zorder>Consul_17</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Consulta 4</string>
+       </attribute>
+       <widget class="QTableWidget" name="Tabla_consulta_4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>160</y>
+          <width>631</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>309</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Nombre Estudiante</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Temperatura</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_104">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_105">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>30</y>
+          <width>771</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ff0000;&quot;&gt;CONSU&lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;LTAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_106">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>171</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_107">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>711</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_108">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>541</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_117">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>90</y>
+          <width>531</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xvv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#537bff;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Listar los niños que han  reportado temperaturas mayores a 38 grados &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Consul_18">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>480</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONSULTA 4</string>
+        </property>
+       </widget>
+       <zorder>label_107</zorder>
+       <zorder>label_104</zorder>
+       <zorder>label_108</zorder>
+       <zorder>label_106</zorder>
+       <zorder>Tabla_consulta_4</zorder>
+       <zorder>label_105</zorder>
+       <zorder>label_117</zorder>
+       <zorder>Consul_18</zorder>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Consulta 5</string>
+       </attribute>
+       <widget class="QTableWidget" name="Tabla_consulta_5">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>180</y>
+          <width>591</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>307</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>Acudiente</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Temperatura</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_109">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_110">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>30</y>
+          <width>771</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Eras Bold ITC&quot;;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ff0000;&quot;&gt;CONSU&lt;/span&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; color:#ffffff;&quot;&gt;LTAS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_111">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>171</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);
+background-color: rgb(255, 37, 48);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_112">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>701</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_113">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>390</y>
+          <width>721</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 123, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_118">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>110</y>
+          <width>561</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;xvv&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#537bff;&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Lista de acudientes de niños que han reportado&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt; temperaturas mayores a 37 grados &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Consul_19">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>470</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CONSULTA 5</string>
+        </property>
+       </widget>
+       <zorder>label_111</zorder>
+       <zorder>label_112</zorder>
+       <zorder>label_110</zorder>
+       <zorder>label_109</zorder>
+       <zorder>label_113</zorder>
+       <zorder>Tabla_consulta_5</zorder>
+       <zorder>label_118</zorder>
+       <zorder>Consul_19</zorder>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>743</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
